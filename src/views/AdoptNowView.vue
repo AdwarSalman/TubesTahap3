@@ -178,12 +178,14 @@
       </div>
     </section>
   </div>
+  <ContactUs />
 </template>
 
 <script setup>
 import Navbar from "@/components/Navbar.vue";
 import { ref } from "vue";
 import { useRouter } from "vue-router";
+import ContactUs from "@/components/ContactUs.vue";
 
 const router = useRouter();
 

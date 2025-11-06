@@ -1,66 +1,76 @@
 <template>
-  <!-- BAGIAN 5 FAQ -->
-  <section class="faq-section">
-    <h2>Frequently Asked Questions</h2>
+   <section class="faq-section">
+     <div class="faq-container">
+      <h2>Frequently Asked Questions</h2>
 
-    <details class="faq-item">
-      <summary>What are the requirements to adopt a cat?</summary>
-      <p>You need to fill out the adoption form, provide ID, and agree to the adoption policy.</p>
-    </details>
+       <div class="faq-item">
+      <details>
+        <summary>What are the requirements to adopt a cat?</summary>
+        <p>You need to fill out the adoption form, provide ID, and agree to the adoption policy.</p>
+      </details>
+    </div>
 
-    <details class="faq-item">
-      <summary>What documents or information need to be prepared for adoption?</summary>
-      <p>Prepare your ID card, proof of residence, and any references if required.</p>
-    </details>
+      <div class="faq-item">
+      <details>
+        <summary>What documents or information need to be prepared for adoption?</summary>
+        <p>Prepare your ID card, proof of residence, and any references if required.</p>
+      </details>
+    </div>
 
-    <details class="faq-item">
-      <summary>Is there a fee to adopt a cat?</summary>
-      <p>Some shelters may ask for a small adoption fee to cover medical costs.</p>
-    </details>
+      <div class="faq-item">
+      <details>
+        <summary>Is there a fee to adopt a cat?</summary>
+        <p>Some shelters may ask for a small adoption fee to cover medical costs.</p>
+      </details>
+    </div>
 
-    <details class="faq-item">
-      <summary>Do you have any questions?</summary>
-      <p>You can contact us anytime via email or our social media accounts.</p>
-    </details>
-  </section>
+     <div class="faq-item">
+      <details>
+        <summary>Do you have any questions?</summary>
+        <p>You can contact us anytime via email or our social media accounts.</p>
+      </details>
+    </div>
+  </div>
+</section>
 </template>
 
 <style scoped>
+
 /*===========
   BAGIAN 5 FAQ
   ===========*/
 .faq-section {
-  background-color: oklch(96.7% 0.003 264.542);
-  padding: 40px 10px;
-  width: 100%;
-  margin: 0;
+  background-color: #f7f1e8; /*latar warna putih*/
+  padding: 60px 75px; /* kasih jarak atas dan bawah */
+}
+
+/* Tambahkan kotak latar biru di dalam section */
+.faq-container {
+  background-color: #6CD4FF;
+  padding: 40px 20px;
+  border-radius: 20px;
+  max-width: 2000px; /* biar gak terlalu lebar */
+  margin: 0 auto; /* biar posisi di tengah */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .faq-section h2 {
-  background-color: oklch(76.9% 0.188 70.08);
   display: inline-block;
+  text-shadow: #000000 0px 2px 2px;
   padding: 10px 20px;
   border-radius: 15px;
-}
-
-.faq-title {
-  background-color: #EBE7DF;
-  display: inline-block;
-  padding: 11px 6px;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  font-weight: bold;
+  margin-bottom: 30px; /*supaya antara judul dan pertanyaan ada jarak*/
+  font-weight: 500;
 }
 
 .faq-item {
-  background-color: oklch(92.3% 0.003 48.717);
-  border: 1px solid #ddd;
+  background-color: #FFBA6B;
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 20px;
-  box-shadow: 4px 4px 4px rgba(0,0,0,0.3);
-  max-width: 1400px;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.05);
 }
+
 </style>
 
 <script setup>

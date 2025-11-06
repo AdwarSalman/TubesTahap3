@@ -1,4 +1,3 @@
-
 <template>
   <!-- HERO SECTION -->
   <section class="about-hero">
@@ -7,7 +6,7 @@
       <p>We’re a community of animal lovers dedicated to helping stray cats find safe and loving homes.</p>
       <button class="btn">Join Our Mission</button>
     </div>
-    <!-- <img src="/images/header/kucing.jpg" alt="cat" class="hero-cat"> -->
+    <!-- <img src="images/header/kucing.jpg" alt="cat" class="hero-cat"> -->
   </section>
 
   <!-- MISSION AND VISION -->
@@ -25,13 +24,16 @@
   </section>
 
   <!-- OUR STORY -->
-  <section class="story">
-    <div class="story-text">
-      <h2>Our Story</h2>
-      <p>Adopt Center was founded by a group of volunteers who were concerned about the increasing number of stray cats in their neighborhood. We decided to build a platform to connect rescuers, adopters, and donors in one caring community.</p>
+   <div class="story-container">
+
+     <section class="story">
+       <div class="story-text">
+         <h2>Our Story</h2>
+         <p>Adopt Center was founded by a group of volunteers who were concerned about the increasing number of stray cats in their neighborhood. We decided to build a platform to connect rescuers, adopters, and donors in one caring community.</p>
+        </div>
+        <!-- <img src="images/about/doker-kucing.png" class="story-img"> -->
+      </section>
     </div>
-    <!-- <img src="/images/about/doker-kucing.png" class="story-img"> -->
-  </section>
 
   <!-- VALUES -->
   <section class="values">
@@ -56,45 +58,14 @@
       <p>Educate the community to care for stray cats.</p>
     </div>
   </section>
-
-  <!-- TEAM SECTION -->
-  <section class="team">
-    <h2>Meet Our Team</h2>
-    <p>The people behind Adopt Center — passionate animal lovers working to make every cat’s life better.</p>
-
-    <div class="team-list">
-      <div class="team-card">
-        <!-- <img src="/images/about/jefri.jpg"> -->
-        <h4>Jeff</h4>
-        <p>Voluteer</p>
-      </div>
-      <div class="team-card">
-        <!-- <img src="/images/about/davina.jpg"> -->
-        <h4>Davina</h4>
-        <p>Mediss</p>
-      </div>
-      <div class="team-card">
-        <!-- <img src="/images/about/yesaya.jpg"> -->
-        <h4>Yesaya</h4>
-        <p>Project Manager</p>
-      </div>
-      <div class="team-card">
-        <!-- <img src="/images/about/gabriel.jpg"> -->
-        <h4>Gabriel</h4>
-        <p>Volunteer Coordinator</p>
-      </div>
-    </div>
-
-    <p class="team-footer">We may be small, but our hearts are big for cats! 🧡</p>
-  </section>
-
 </template>
+
 
 <style scoped>
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  background: #FFF6ED;
+  background: #f7f1e8; /* sama dengan adoptSlider */
   color: #333;
 }
 
@@ -104,45 +75,66 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 80px 10%;
+  background: #f7f1e8;
 }
 
 .hero-text h1 span { color: #d58f15; }
 
 .btn {
-  background: #d58f15;;
+  background: #d58f15;
   border: none;
   padding: 10px 20px;
   color: white;
   border-radius: 8px;
   cursor: pointer;
   margin-top: 20px;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #e0a532;
 }
 
 .hero-cat {
   width: 260px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 /* MISSION & VISION */
 .mission-vision {
   display: flex;
   gap: 20px;
-  padding: 40px 10%;
+  padding: 60px 10%;
+  justify-content: center;
+  background-color: #f7f1e8;
+  
 }
 
 .mv-card {
-  background: #3ad8f7;
+  background: white;
   padding: 25px;
-  border-radius: 16px;
+  border-radius: 20px;
   flex: 1;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* STORY */
+.story-container {
+  background: #f7f1e8;
+  padding: 40px 0;
+}
 .story {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 60px 10%;
+  background-color: white;
+  border-radius: 20px;
+  margin: 40px 10%;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
-
 .story-img {
   width: 300px;
   border-radius: 12px;
@@ -153,36 +145,16 @@ body {
 .values {
   display: flex;
   justify-content: space-between;
-  padding: 40px 10%;
+  padding: 60px 10%;
+  background: #f7f1e8;
 }
 
 .value-card {
   text-align: center;
   width: 22%;
-}
-
-/* TEAM */
-.team {
-  text-align: center;
-  padding: 80px 10%;
-  background: #3ad8f7;
-  border-top-left-radius: 80px;
-  border-top-right-radius: 80px;
-}
-
-.team-list {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
-}
-
-.team-card img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;     
-  object-fit: cover;      
-  display: block;
-  margin: 0 auto;
-  box-shadow: 0px 4px 12px rgba(0,0,0,0.3);
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 </style>

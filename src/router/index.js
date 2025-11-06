@@ -27,6 +27,16 @@ const router = createRouter({
       name:'terms',
       component: () => import('../components/TermAndCondition.vue')
     },
+    {
+      path:'/adoption',
+      name:'adoption',
+      component: () => import('@/views/AdoptionView.vue'),
+    },
+    {
+      path:'/profile',
+      name:'profile',
+      component: () => import('@/views/ProfileView.vue'),
+    },
     // Kamu bisa menambahkan halaman lain di sini nanti, contoh:
     // {
     //   path: '/about',

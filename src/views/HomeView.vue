@@ -1,7 +1,7 @@
 <template>
-  <section id="hero-area" class="header-area header-eight">
-    <div class="container">
-      <div class="row align-items-center">
+  <section id="hero-area" class="header-area header-eight ">
+    <div class="container m-auto flex items-center justify-center">
+      <div class="row flex items-center justify-center w-screen">
         <div class="col-lg-6 col-md-12 col-12">
           <div class="header-content">
             <h1>BRING HOME THE PURRFECT FRIEND</h1>
@@ -10,25 +10,25 @@
               adopt them safely
             </p>
             <div class="button">
-              <a href="javascript:void(0)" class="btn primary-btn">Adopt</a>
+              <a href="/adoption" class="btn primary-btn">Adopt</a>
               <a href="javascript:void(0)" class="community-link">Join our community</a>
             </div>
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-12">
-          <div class="header-image-wrapper"> 
-            <img src="/images/header/Cat 9.jpg" alt="Cat" class="hero-cat-image" />
+          <div class="header-image-wrapper w-200 m-0 "> 
+            <img src="/images/header/Vector.png" alt="Cat" class="hero-cat-image" />
           </div>
           </div>
       </div>
     </div>
   </section>
-  <!-- <AdoptSlider /> -->
+  <AdoptSlider />
   <ReportKitten />
   <NewsSection />
   <FAQ />
-  <ContactUs />
   <AboutUs />
+  <ContactUs />
 </template>
 
 <script setup>
@@ -42,11 +42,12 @@ import AboutUs from '@/components/AboutUs.vue';
   // (@ adalah shortcut untuk folder 'src')
 </script>
 
+
 <style scoped>
   /* CSS UNTUK HERO (JANGAN DIHAPUS) */
   .header-eight .primary-btn {
     background: var(--primary);
-    color: var(--white);
+    color: var(--white);  
     box-shadow: var(--shadow-2);
   }
   .header-eight .active.primary-btn, .header-eight .primary-btn:hover, .header-eight .primary-btn:focus {
@@ -62,8 +63,8 @@ import AboutUs from '@/components/AboutUs.vue';
 
   .header-eight {
     position: relative;
-    padding:160px 0 100px 0;
-    background-color: transparent; 
+    padding:0 0 0 0;
+    background-color: #f7f1e8; 
     overflow: hidden; 
   }
 
@@ -88,7 +89,7 @@ import AboutUs from '@/components/AboutUs.vue';
     z-index: -1; 
     
     /* Pastikan path ini benar */
-    background-image: url('/images/vector/Background Report.png'); 
+    /* background-image: url('/images/vector/Background Report.png');  */
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

@@ -20,18 +20,18 @@
     />
 
     <!-- Konten utama -->
-    <div class="relative text-center flex flex-col items-center justify-center space-y-6
-    border-2 border-solid">
+    <div class="relative text-center flex flex-col items-center justify-center space-y-6">
       <h1 class="text-3xl lg:text-5xl font-bold text-black drop-shadow-lg
-      max-sm:text-lg! max-sm:bottom-20 border-2 border-solid">
+      max-sm:text-lg! max-sm:bottom-20">
         Find Missing Kitten?
       </h1>
 
       <img
         src="/images/header/kucing-report-button.png"
         alt="Kucing tombol"
-        class="w-36 sm:w-44 lg:w-52 mx-auto absolute top-[37%] 
-        max-sm:w-28 max-sm:top-[52.5%]"
+        class="w-36 sm:w-44 lg:w-52 mx-auto absolute 
+        max-sm:w-28 
+        top-[37%] max-lg:top-[40.5%] max-sm:top-[56.5%] "
       />
 
       <div class="relative inline-flex items-center mt-30">
