@@ -55,7 +55,36 @@ Koneksi ke **Database** dan integrasi **Backend** belum diatur dalam tahap ini d
 
 ## 📂 Struktur Project
 
-src/ ├── assets/ # File statis (CSS utama, gambar jika ada) │ └── main.css ├── components/ # Komponen Vue yang dapat digunakan kembali │ ├── AboutUs.vue │ ├── AdoptSlider.vue │ ├── ContactUs.vue │ ├── Dashboard.vue │ ├── FAQ.vue │ ├── Login.vue │ ├── Navbar.vue │ ├── NewsPopUp.vue │ ├── NewsSection.vue │ ├── ReportKitten.vue │ └── TermAndCondition.vue ├── router/ # Konfigurasi Vue Router │ └── index.js ├── views/ # Halaman utama aplikasi │ ├── AdoptNowView.vue │ ├── AdoptionView.vue │ ├── DashboardView.vue │ ├── DonateView.vue │ ├── HomeView.vue │ ├── NewsView.vue │ ├── ProfileView.vue │ └── ReportRescueView.vue ├── App.vue # Komponen root utama └── main.js # Entry point aplikasi
+src/
+assets/ (File statis CSS utama )
+   main.css
+components/ (Komponen Vue yang dapat digunakan kembali)
+   AboutUs.vue
+   AdoptSlider.vue
+   ContactUs.vue
+   Dashboard.vue
+   FAQ.vue
+   Login.vue
+   Navbar.vue
+   NewsPopUp.vue
+   NewsSection.vue
+   ReportKitten.vue
+   TermAndCondition.vue
+router/ (Konfigurasi Vue Router)
+   index.js
+views/ (Halaman utama aplikasi)
+   AdoptNowView.vue
+   AdoptionView.vue
+   DashboardView.vue
+   DonateView.vue
+   HomeView.vue
+   NewsView.vue
+   ProfileView.vue
+   ReportRescueView.vue
+App.vue (Komponen root utama)
+main.js (Entry point aplikasi)
+
+untuk assets foto program di simpan di folder public sesuai dengan penggunaannya
 
 ## 🚀 Cara Menjalankan Project
 
@@ -84,21 +113,22 @@ Pastikan Anda telah menginstal **Node.js** (versi LTS direkomendasikan).
 
 4.  Buka browser dan akses tautan lokal yang muncul di terminal (biasanya `http://localhost:5173`).
 
-## 📸 Tangkapan Layar (Screenshots)
-
-## 🤝 Kontribusi
-
-Kontribusi sangat diterima! Jika Anda ingin meningkatkan fitur atau memperbaiki *bug*:
-
-1.  *Fork* repository ini.
-2.  Buat *branch* fitur baru (`git checkout -b fitur-keren`).
-3.  *Commit* perubahan Anda (`git commit -m 'Menambahkan fitur keren'`).
-4.  *Push* ke *branch* tersebut (`git push origin fitur-keren`).
-5.  Buat *Pull Request*.
-
-## 📝 Lisensi
-
-[Tuliskan lisensi project Anda di sini, misal: MIT License]
+## 📸 Tampilan web (Screenshots)
+1. HomePage
+   <img width="1843" height="828" alt="image" src="https://github.com/user-attachments/assets/97ae0c82-e3da-471c-81d9-4102a4256bcc" />
+2. AdoptSlider
+   <img width="1845" height="802" alt="image" src="https://github.com/user-attachments/assets/8de70aba-6dac-4871-96d5-fc71d6527f9f" />
+3. ReportSection
+   <img width="1844" height="874" alt="image" src="https://github.com/user-attachments/assets/85562aa2-e18e-42ba-8aa4-6976802fa3ae" />
+4. NewsSection
+   <img width="1844" height="760" alt="image" src="https://github.com/user-attachments/assets/61780935-bf32-4fae-b744-1c0005dabd6e" />
+5. FAQ
+   <img width="1817" height="635" alt="image" src="https://github.com/user-attachments/assets/5b51c3e7-36f9-4e9b-9bc1-b3a5a2b3f60f" />
+6. About Us
+   <img width="1903" height="871" alt="image" src="https://github.com/user-attachments/assets/42f6783e-e95d-454e-9521-dad4a5614306" />
+7. Footer / Contact Us
+   <img width="1903" height="326" alt="image" src="https://github.com/user-attachments/assets/0a82b989-01ee-4e8d-b6ec-d7bb01bcf242" />
+8. 
 
 ---
 Dibuat dengan ❤️ oleh Tim Adopt Center
