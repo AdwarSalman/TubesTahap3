@@ -62,6 +62,11 @@ const router = createRouter({
       name:'donate',
       component: () => import('@/views/DonateView.vue'),
     },
+    {
+      path:'/all-pages',
+      name:'all-pages',
+      component: () => import('@/views/AllPagesView.vue'),
+    },
     // Kamu bisa menambahkan halaman lain di sini nanti, contoh:
     // {
     //   path: '/about',

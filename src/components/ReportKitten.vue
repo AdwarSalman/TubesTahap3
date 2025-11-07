@@ -5,12 +5,12 @@
 >
     <!-- Kucing kiri kanan -->
     <img
-      src="/images/header/kucing_kiri_report.png"
+      src="/images/home/kucing_kiri_report.png"
       alt="Kucing kiri"
       class="hidden md:block absolute left-0 top-20 h-[70%] object-contain pointer-events-none"
     />
     <img
-      src="/images/header/kucing_kanan_report.png"
+      src="/images/home/kucing_kanan_report.png"
       alt="Kucing kanan"
       class="hidden md:block absolute right-0 top-20 h-[70%] object-contain pointer-events-none "
     />
@@ -22,7 +22,7 @@
       </h1>
 
       <img
-        src="/images/header/kucing-report-button.png"
+        src="/images/home/kucing-report-button.png"
         alt="Kucing tombol"
         class="w-36 sm:w-44 lg:w-52 mx-auto absolute top-[37%]"
       />

@@ -10,7 +10,7 @@
         <!-- Brand -->
         <router-link to="/" class="flex items-center space-x-2">
           <img
-            src="/images/logo.svg"
+            src="/images/navbar/logoKucing.png"
             alt="Logo"
             class="h-10 w-10 rounded-full bg-gray-200 object-contain"
           />
@@ -32,6 +32,7 @@
 
           <router-link to="/donate" class="text-gray-900 hover:text-gray-800 transition">Donate</router-link>
           <router-link to="/dashboard" class="text-gray-900 hover:text-gray-800 transition">Dashboard</router-link>
+          <router-link to="/all-pages" class="text-gray-900 hover:text-gray-800 transition">Semua Halaman</router-link>
         </nav>
 
         <!-- Right Side (Desktop) -->
@@ -56,7 +57,7 @@
           <template v-else-if="isLoggedIn">
             <div class="relative group flex items-center space-x-2">
               <img
-                src="/images/header/hero-image.jpg"
+                src="/images/home/Cat 9.jpg"
                 alt="User"
                 class="h-8 w-8 rounded-full bg-gray-300 object-cover cursor-pointer"
               />
@@ -131,6 +132,7 @@
 
           <router-link to="/donate" class="text-gray-900 hover:text-gray-800 transition">Donate</router-link>
 <router-link to="/dashboard" class="text-gray-900 hover:text-gray-800 transition">Dashboard</router-link>
+<router-link to="/all-pages" class="text-gray-900 hover:text-gray-800 transition">Semua Halaman</router-link>
           <!-- Auth buttons (Mobile) -->
           <div v-if="!isLoggedIn && !isAuthPage" class="pt-3 border-t border-black">
             <router-link to="/login" class="block py-2 text-blue-600 font-medium">Login</router-link>

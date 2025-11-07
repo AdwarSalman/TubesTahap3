@@ -8,7 +8,7 @@
         100% of your support goes directly to the welfare of our feline friends.
       </p>
       <img
-        src="/images/header/Cat 9.jpg"
+        src="/images/home/Cat 9.jpg"
         alt="Happy cat"
         class="mx-auto rounded-2xl shadow-lg w-full max-w-xl object-cover"
       />

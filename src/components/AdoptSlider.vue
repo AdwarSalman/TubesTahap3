@@ -28,7 +28,7 @@
     <h2 class="title">ADOPT UR KITTEN HERE</h2>
     
     <button class="cat-button" @click="goToAdoptDetail">
-      <img src="/images/header/cat-button.png" alt="adopt-now" />
+      <img src="/images/home/cat-button.png" alt="adopt-now" />
     </button>
 
     <div class="more-button-container">
