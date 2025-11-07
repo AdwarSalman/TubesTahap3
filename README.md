@@ -1,6 +1,5 @@
 # 🐱 Adopt Center
 
-![Project Status](https://img.shields.io/badge/status-active-success)
 ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=flat&logo=vuedotjs&logoColor=%234FC08D)
 ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)
 
