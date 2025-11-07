@@ -26,11 +26,12 @@
           <button @click="scrollToSection('about')" class="text-gray-900 hover:text-gray-800 transition">
             About Us
           </button>
-          <button @click="scrollToSection('faq')" class="text-gray-900 hover:text-gray-800 transition">
+          <button @click="scrollToSection('faq')" class="text-gray-900 hover:text-gray-800 transition"> 
             FAQ
           </button>
 
           <router-link to="/donate" class="text-gray-900 hover:text-gray-800 transition">Donate</router-link>
+          <router-link to="/dashboard" class="text-gray-900 hover:text-gray-800 transition">Dashboard</router-link>
         </nav>
 
         <!-- Right Side (Desktop) -->
@@ -83,7 +84,7 @@
         </div>
 
         <!-- Mobile Menu Button -->
-        <button @click="mobileOpen = !mobileOpen" class="md:hidden text-gray-800 focus:outline-none">
+        <button @click="mobileOpen = !mobileOpen" class="md:hidden text-gray-200 focus:outline-none">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -129,15 +130,15 @@
           </button>
 
           <router-link to="/donate" class="text-gray-900 hover:text-gray-800 transition">Donate</router-link>
-
+<router-link to="/dashboard" class="text-gray-900 hover:text-gray-800 transition">Dashboard</router-link>
           <!-- Auth buttons (Mobile) -->
-          <div v-if="!isLoggedIn && !isAuthPage" class="pt-3 border-t border-gray-200">
+          <div v-if="!isLoggedIn && !isAuthPage" class="pt-3 border-t border-black">
             <router-link to="/login" class="block py-2 text-blue-600 font-medium">Login</router-link>
             <router-link to="/sign-up" class="block py-2 text-blue-600 font-medium">Sign Up</router-link>
           </div>
 
           <!-- Logged In Menu (Mobile) -->
-          <div v-else-if="isLoggedIn" class="pt-3 border-t border-gray-200">
+          <div v-else-if="isLoggedIn" class="pt-3 border-t border-black">
             <router-link to="/profile" class="block py-2 text-gray-800 font-medium">Profile</router-link>
             <button @click="logout" class="block w-full text-left py-2 text-gray-800 font-medium">Logout</button>
           </div>
