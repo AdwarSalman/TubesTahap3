@@ -116,7 +116,7 @@ const newsList = ref([
   {
     title: 'Ada Kucing Kece',
     desc: 'Kucing ini baru saja memenangkan lomba kecantikan hewan tingkat nasional. Ia dikenal karena bulunya yang lembut dan tingkahnya yang menggemaskan.',
-    image: '/images/header/Cat 9.jpg',
+    image: '/images/home/Cat 9.jpg',
     likes: 20,
     comments: [{ user: 'Mia', text: 'Lucunyaaa 😻', likes: 2 }],
     reactions: {},
@@ -124,7 +124,7 @@ const newsList = ref([
   {
     title: 'Kucing Diselamatkan dari Pohon',
     desc: 'Seekor kucing berhasil diselamatkan oleh tim damkar setelah terjebak di atas pohon selama dua hari.',
-    image: '/images/header/Cat 9.jpg',
+    image: '/images/home/Cat 9.jpg',
     likes: 54,
     comments: [{ user: 'Luna', text: 'Terima kasih pahlawan damkar!', likes: 3 }],
     reactions: {},
@@ -132,7 +132,7 @@ const newsList = ref([
   {
     title: 'Kucing Baru di Shelter',
     desc: 'Shelter kami baru kedatangan kucing kecil lucu berumur 2 bulan yang sedang mencari rumah baru.',
-    image: '/images/header/Cat 9.jpg',
+    image: '/images/home/Cat 9.jpg',
     likes: 13,
     comments: [],
     reactions: {},
@@ -140,7 +140,7 @@ const newsList = ref([
   {
     title: 'Festival Kucing Tahunan',
     desc: 'Event besar untuk para pecinta kucing digelar minggu ini, menghadirkan puluhan ras dan atraksi unik.',
-    image: '/images/header/Cat 9.jpg',
+    image: '/images/home/Cat 9.jpg',
     likes: 89,
     comments: [{ user: 'Dina', text: 'Seru banget tahun lalu!', likes: 1 }],
     reactions: {},
